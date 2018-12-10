@@ -21,46 +21,46 @@ body {
 .robot {
   width: 320px;
   margin: 0 auto;
+  position: relative;
 }
 
 .robot-body {
   width: 320px;
-  position: relative;
   display: block;
 }
 
 .robot-brain {
   width: 46px;
   position: absolute;
-  top: 50px;
-  left: 48.6%;
+  top: 5px;
+  left: 42.5%;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
   position: absolute;
-  top: 13px;
+  top: -37px;
 }
 
 .robot-head-left {
-  left: 42.6%;
+  left: 11.5%;
 }
 
 .robot-head-right {
-  right: 42.6%;
+  right: 11.5%;
 }
 
 .robot:hover .robot-head-left {
-  top: 1px;
-  left: 40%;
+  top: -50px;
+  left: -2%;
 }
 
 .robot:hover .robot-head-right {
-  top: 1px;
-  right: 40%;
+  top: -50px;
+  right: -2%;
 }
 
 .robot:hover .robot-brain {
-  top: 30px;
+  top: -17px;
 }
